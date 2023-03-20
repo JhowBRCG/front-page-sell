@@ -1,0 +1,19 @@
+.main-button {
+  display: block;
+  margin: 11px auto auto auto;
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  color: #ffffff;
+  background: #ef3a5d;
+  border: 0;
+  border-radius: 20px;
+  padding: 25px;
+  transition: 100ms;
+}
+
+.main-button:hover {
+  color: #ef3a5d;
+  background-color: transparent;
+  outline: #ef3a5d 3px solid;
+}

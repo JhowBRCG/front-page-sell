@@ -1,0 +1,18 @@
+.definitive-guide {
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+@media (max-width: 530px) {
+  .definitive-guide {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+.wrapper-guide {
+  max-width: 471px;
+  margin: 23px auto auto auto;
+}

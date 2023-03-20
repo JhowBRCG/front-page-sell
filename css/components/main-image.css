@@ -1,0 +1,15 @@
+.main-image {
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .main-image img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 410px) {
+  .main-image img {
+    width: 300px;
+  }
+}

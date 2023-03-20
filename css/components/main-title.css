@@ -1,0 +1,38 @@
+.main-title {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+@media (max-width: 530px) {
+  .main-title {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+.wrapper-main-title {
+  margin: 50px auto auto auto;
+  max-width: 446px;
+  border-bottom: 3px solid #ef3a5d;
+  padding: 8px 5px;
+  position: relative;
+}
+
+.wrapper-main-title::before {
+  content: "";
+  width: 49px;
+  height: 145px;
+  position: absolute;
+  background: #ef3a5d;
+  left: -90px;
+  top: 50px;
+}
+
+@media (max-width: 660px) {
+  .wrapper-main-title::before {
+    display: none;
+  }
+}
